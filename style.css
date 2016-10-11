@@ -27,6 +27,10 @@ html {
 	padding-left: 10px;
 }
 
+.header:hover {
+	background-color: #00DAEC;
+}
+
 }
 .header > span {
 	margin-top: 10px;
@@ -41,12 +45,13 @@ html {
 	padding-left: 10px;
 	overflow:auto;
 	transition: max-height 0.3s;
-	transition-timing-function: linear;
+	transition-timing-function: ease-in-out;
 	max-height:0;
 }
 
 .show {
 	transition:max-height 0.5s;
+	transition-timing-function: linear;
 	max-height:195px;
 }
 
