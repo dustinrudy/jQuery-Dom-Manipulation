@@ -1,0 +1,7 @@
+(function() {
+	
+$.fn.accordian = function() {
+
+}
+
+}()
